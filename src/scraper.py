@@ -1,8 +1,3 @@
-"""
-Federal Reserve FOMC Minutes Web Scraper - Main Implementation
-Implements respectful scraping with exponential backoff and comprehensive error handling
-"""
-
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -262,7 +257,7 @@ class FEDScraper:
         
         return document
     
-    def scrape_recent_minutes(self, limit: int = 3) -> List[FOMCDocument]:
+    def scrape_recent_minutes(self, limit: int = 4) -> List[FOMCDocument]:
         """
         Scrape the most recent FOMC minutes
         Main entry point for getting current data
@@ -415,17 +410,17 @@ def main():
     results = scraper.run_complete_pipeline(limit=4)
     
     if results['success']:
-        print(f"✅ Success! Processed {results['documents_processed']} documents")
-        print(f"\n📁 Files created:")
+        print(f"Success! Processed {results['documents_processed']} documents")
+        print(f"\nFiles created:")
         for file_type, filepath in results['files_created'].items():
             print(f"   - {file_type}: {filepath}")
         
-        print(f"\n📋 Executive Summary:")
+        print(f"\nExecutive Summary:")
         print("-" * 40)
         print(results['summary'])
         
     else:
-        print(f"❌ Pipeline failed: {results['error']}")
+        print(f"Pipeline failed: {results['error']}")
 
 if __name__ == "__main__":
     main()

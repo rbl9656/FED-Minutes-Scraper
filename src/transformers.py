@@ -1,8 +1,3 @@
-"""
-Federal Reserve Data Transformation Pipeline
-Implements business logic and value-added analysis for FOMC minutes
-"""
-
 import re
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Any, Tuple

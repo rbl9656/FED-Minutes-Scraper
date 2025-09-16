@@ -1,0 +1,27 @@
+=== FEDERAL RESERVE FOMC MINUTES ANALYSIS ===
+Generated: September 15, 2025 at 07:57 PM
+
+DOCUMENTS PROCESSED: 4
+VALIDATION SUCCESS: 4/4
+
+MARKET ANALYSIS:
+• Policy Stance: NEUTRAL
+• Sentiment Score: 0.60
+• Trend: EASING
+• Recommendation: Mixed signals suggest range-bound markets: tactical positioning, volatility strategies
+
+DOCUMENT DETAILS:
+1. July 30, 2025
+   Status: VALID
+   Content: 47521 characters
+2. June 18, 2025
+   Status: VALID
+   Content: 47375 characters
+3. May 07, 2025
+   Status: VALID
+   Content: 51089 characters
+4. March 19, 2025
+   Status: VALID
+   Content: 48777 characters
+
+=== END ANALYSIS ===

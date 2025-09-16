@@ -1,8 +1,3 @@
-"""
-Federal Reserve Data Validation Rules
-Implements comprehensive data quality assurance for scraped FOMC content
-"""
-
 import re
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Any

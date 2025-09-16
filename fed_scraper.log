@@ -60,3 +60,41 @@
 2025-09-12 16:07:51,143 - transformers - INFO - Document processing completed successfully
 2025-09-12 16:07:51,144 - __main__ - INFO - Data saved to: /Users/robbieliesegang/Desktop/Git Repos/FED-Minutes-Scraper/data/raw_fomc_data_20250912_160751.json
 2025-09-12 16:07:51,145 - __main__ - INFO - Pipeline completed successfully
+2025-09-15 19:57:09,556 - __main__ - INFO - Starting complete FED scraping pipeline
+2025-09-15 19:57:09,556 - __main__ - INFO - Starting scrape of 4 most recent FOMC minutes
+2025-09-15 19:57:09,556 - __main__ - INFO - Starting calendar data extraction...
+2025-09-15 19:57:09,557 - __main__ - INFO - Requesting: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (attempt 1)
+2025-09-15 19:57:14,769 - __main__ - INFO - Successfully fetched: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+2025-09-15 19:57:14,818 - __main__ - INFO - Extracted 90 unique document references
+2025-09-15 19:57:14,819 - __main__ - INFO - Scraping content from: https://www.federalreserve.gov/monetarypolicy/fomcminutes20250730.htm
+2025-09-15 19:57:14,819 - __main__ - INFO - Requesting: https://www.federalreserve.gov/monetarypolicy/fomcminutes20250730.htm (attempt 1)
+2025-09-15 19:57:20,024 - __main__ - INFO - Successfully fetched: https://www.federalreserve.gov/monetarypolicy/fomcminutes20250730.htm
+2025-09-15 19:57:20,061 - validators - INFO - Validating document: July 30, 2025
+2025-09-15 19:57:20,069 - validators - INFO - Validation complete. Status: VALID, Score: 1.000
+2025-09-15 19:57:20,069 - __main__ - INFO - Content extracted: 47521 characters
+2025-09-15 19:57:20,069 - __main__ - INFO - Validation status: VALID
+2025-09-15 19:57:25,074 - __main__ - INFO - Scraping content from: https://www.federalreserve.gov/monetarypolicy/fomcminutes20250618.htm
+2025-09-15 19:57:25,075 - __main__ - INFO - Requesting: https://www.federalreserve.gov/monetarypolicy/fomcminutes20250618.htm (attempt 1)
+2025-09-15 19:57:30,254 - __main__ - INFO - Successfully fetched: https://www.federalreserve.gov/monetarypolicy/fomcminutes20250618.htm
+2025-09-15 19:57:30,288 - validators - INFO - Validating document: June 18, 2025
+2025-09-15 19:57:30,294 - validators - INFO - Validation complete. Status: VALID, Score: 1.000
+2025-09-15 19:57:30,294 - __main__ - INFO - Content extracted: 47375 characters
+2025-09-15 19:57:30,294 - __main__ - INFO - Validation status: VALID
+2025-09-15 19:57:35,300 - __main__ - INFO - Scraping content from: https://www.federalreserve.gov/monetarypolicy/fomcminutes20250507.htm
+2025-09-15 19:57:35,300 - __main__ - INFO - Requesting: https://www.federalreserve.gov/monetarypolicy/fomcminutes20250507.htm (attempt 1)
+2025-09-15 19:57:40,464 - __main__ - INFO - Successfully fetched: https://www.federalreserve.gov/monetarypolicy/fomcminutes20250507.htm
+2025-09-15 19:57:40,499 - validators - INFO - Validating document: May 07, 2025
+2025-09-15 19:57:40,505 - validators - INFO - Validation complete. Status: VALID, Score: 0.900
+2025-09-15 19:57:40,505 - __main__ - INFO - Content extracted: 51089 characters
+2025-09-15 19:57:40,505 - __main__ - INFO - Validation status: VALID
+2025-09-15 19:57:45,511 - __main__ - INFO - Scraping content from: https://www.federalreserve.gov/monetarypolicy/fomcminutes20250319.htm
+2025-09-15 19:57:45,512 - __main__ - INFO - Requesting: https://www.federalreserve.gov/monetarypolicy/fomcminutes20250319.htm (attempt 1)
+2025-09-15 19:57:50,704 - __main__ - INFO - Successfully fetched: https://www.federalreserve.gov/monetarypolicy/fomcminutes20250319.htm
+2025-09-15 19:57:50,746 - validators - INFO - Validating document: March 19, 2025
+2025-09-15 19:57:50,753 - validators - INFO - Validation complete. Status: VALID, Score: 1.000
+2025-09-15 19:57:50,753 - __main__ - INFO - Content extracted: 48777 characters
+2025-09-15 19:57:50,753 - __main__ - INFO - Validation status: VALID
+2025-09-15 19:57:55,759 - transformers - INFO - Processing 4 documents for analysis
+2025-09-15 19:57:56,261 - transformers - INFO - Document processing completed successfully
+2025-09-15 19:57:56,261 - __main__ - INFO - Data saved to: /Users/robbieliesegang/Desktop/Git Repos/FED-Minutes-Scraper/data/raw_fomc_data_20250915_195756.json
+2025-09-15 19:57:56,262 - __main__ - INFO - Pipeline completed successfully
